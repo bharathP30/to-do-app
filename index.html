@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      My Page
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <h1>TO-DO</h1>
+      <div class="div"><input type="text" id="taskInput" placeholder="What to do?"></div>
+      <button id="addTaskBtn">Add Task</button>
+      <button id="ClearTaskBtn">Clear All</button>
+
+      <div id="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="pending">Pending</button>
+        <button data-filter="done">Done</button>
+      </div>
+
+      <div class="div"><ul id="list"></ul></div>
+
+      <script src="script.js"></script>
+  </body>
+</html>
