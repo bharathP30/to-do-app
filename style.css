@@ -53,18 +53,23 @@ body{
 #addTaskBtn:active, #ClearTaskBtn:active{
     background-color: gray;
 }
-#list{
-    list-style: none;
-    padding: 10px;
-     width: 50%;
+#list {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
 }
 li{
     display: flex;
     justify-content: space-between;
+    flex-wrap : nowrap;
     padding: 10px 15px;
     margin: 10px;
     border-radius: 5px;
   background-color: var(--li);  
+}
+li span {
+    flex: 1;
+    word-break: break-word;
 }
 .done{
   text-decoration: line-through;
