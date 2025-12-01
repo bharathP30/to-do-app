@@ -6,7 +6,23 @@
         --text : white;
         --shadow : aqua;
     }
+@media(min-width: 320px) and (max-width : 480px){
+#list{
+     width: 85%;
+}
+#taskInput{
+    width: 80%;
+}
+}
 
+@media(min-width: 481px) and (max-width : 1024px){
+#list{
+     width: 70%;
+}
+#taskInput{
+    width: 65%;
+}
+}
 body{
     padding : 50px;
     text-align: center;
@@ -21,7 +37,7 @@ body{
     border-radius: 4px;
     border: none;
     padding: 4px;
-    width: 50%;
+    width: 60%;
 }
 #taskInput:focus{
     box-shadow: 0 0 2px var(--shadow);
