@@ -17,15 +17,17 @@ addBtn.addEventListener("click", ()=>{
       saveTasks();
     });
 
-    li.addEventListener("click",()=>{
-      li.classList.toggle("done");
+    const span = li.querySelector("span");
+
+    span.addEventListener("click",()=>{
+      span.classList.toggle("done");
       saveTasks();
     });
+
     li.appendChild(delBtn);
     listDisplay.appendChild(li);
     task.value = "";
 
-  const span = li.querySelector("span");
 
 span.addEventListener("dblclick", () => {
   span.contentEditable = true;
