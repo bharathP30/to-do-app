@@ -17,10 +17,10 @@ addBtn.addEventListener("click", ()=>{
       saveTasks();
     });
 
-    const span = li.querySelector("span");
+    
 
-    span.addEventListener("click",()=>{
-      span.classList.toggle("done");
+    li.addEventListener("click",()=>{
+      li.classList.toggle("done");
       saveTasks();
     });
 
@@ -28,6 +28,7 @@ addBtn.addEventListener("click", ()=>{
     listDisplay.appendChild(li);
     task.value = "";
 
+const span = li.querySelector("span");
 
 span.addEventListener("dblclick", () => {
   span.contentEditable = true;
