@@ -63,6 +63,7 @@ body{
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
+    list-style : none;
 }
 li{
     display: flex;
