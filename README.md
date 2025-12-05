@@ -2,11 +2,10 @@
 
 This is a simple, interactive To-Do List web application built with HTML, CSS, and JavaScript.
 
-# ⌨️ Typing Speed Test
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-SITE-ID/deploy-status)](https://app.netlify.com/sites/YOUR-SITE-NAME/deploys)
-
 🔗 **Live Demo:** [https://to-do-p30.netlify.app/](https://to-do-p30.netlify.app/)
+
+
+# ⌨️ Typing Speed Test
 
 ## Features
 
