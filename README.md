@@ -2,7 +2,7 @@
 
 This is a simple, interactive To-Do List web application built with HTML, CSS, and JavaScript.
 
-🔗 **Live Demo:** [https://to-do-p30.netlify.app/](https://to-do-p30.netlify.app/)
+🔗 **Live Demo:** (https://bharathp30.github.io/to-do-app/)
 
 
 # ⌨️ Typing Speed Test
